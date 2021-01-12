@@ -7,7 +7,7 @@ const dos = () =>{ // use
         setTimeout(()=>{
             resolve("I am two") // for this promise will send msg like pending
         },3000)
-        //reject("this is will return will errors") // un-commend and see you can add reject any where in side promize function
+        reject("this is will return will errors") // un-commend and see you can add reject any where in side promize function
     })
 }
 

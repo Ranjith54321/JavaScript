@@ -9,7 +9,7 @@
 
    -> if you are in one of the function that also contains the default object 
 
-   -> you can access the default object by using this key word in any tuye of JS ENGINE or in any browser
+   -> you can access the default object by using this key word in any type of JS ENGINE or in any browser
 
    -> but the name only varies here chrome it is called as window ****
 
