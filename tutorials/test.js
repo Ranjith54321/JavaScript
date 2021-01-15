@@ -1,6 +1,4 @@
 
+let msg = ' hi iam "ranjith" '
 
-function a(){
-    return  'hi'
-}
-console.log(a);
+console.log(msg);

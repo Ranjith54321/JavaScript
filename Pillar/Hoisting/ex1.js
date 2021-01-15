@@ -2,7 +2,7 @@
     Execution Context has two parts 
             1.) Memory block 2.) code block
 
-    the oprations which are happened in the memory part is called Hoisting 
+    the oprations which are happened in the memory part is called Hoisting  the memoey allocation process on staring stage and while code block process
 
 */
 
