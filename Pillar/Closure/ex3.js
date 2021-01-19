@@ -1,4 +1,4 @@
-// closure from Nmaste Java Script
+// closure from Namaste Java Script
 /*
     closure is nothing but function along with it's lexical scope boundle together
 
@@ -9,7 +9,7 @@
 
 function x(){
     var a = 10;
-    function y(){ // you from here also 
+    function y(){ // you from here also you can return
         console.log(a);
     }
     return y;

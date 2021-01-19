@@ -1,5 +1,5 @@
 // setTimeout + Closures
-// task print 1 to 5 with isec delay of each 
+// task print 1 to 5 with "i" sec delay of each 
 
 /*
 // normal implementation for refresh
@@ -33,7 +33,7 @@ hi
 6
 6
 
--> as you know if async task comes js skips that task do other tasks and come back to do the asyc task
+-> as you know if async task comes js skips that task, do other tasks and come back to do the asyc task
 -> here after first for loop will finished its execution then print "hi" after that async code work 
 -> here closure is working how is it stores the i value 
 -> but here var is accessable for all block so the in the memory address the last value that 6 is fixed
@@ -41,7 +41,7 @@ hi
 
 */
 
-// solution 1 : use let instead of var becase let is block scope so every i block(in for loop) new i is created so in address different vale is there
+// solution 1 : use let instead of var becase let is block scope so every i block(in for loop) new i is created so in address different value is there
 /*
 function x(){
     for(let i=0;i<=5;i++){
@@ -62,7 +62,7 @@ hi
 5
 */
 
-// solution 2 : don't use let sol : use async function inside the finction and pass the value
+// solution 2 : don't use let sol : use async function inside the function and pass the value
 
 function x(){
     for(var i=0;i<=5;i++){

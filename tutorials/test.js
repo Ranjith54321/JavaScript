@@ -1,4 +1,4 @@
 
 let msg = ' hi iam "ranjith" '
 
-console.log(msg);
+console.log(new Date());
