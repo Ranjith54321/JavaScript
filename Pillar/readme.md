@@ -5,3 +5,4 @@
 5.) let and const
 6.) Closure [meaning : function along with it is lexical scope]
 7.) Inteview Questions -> closure.js
+8.) Functions (ex1,2 is separate) (ex 3 to rest is very important)
