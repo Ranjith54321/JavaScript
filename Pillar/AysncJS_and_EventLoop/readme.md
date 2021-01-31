@@ -6,7 +6,7 @@
 
     It executes one line at a time lets see the below example
 
-    add the first image here --- pic 1 
+    ![Basic Call Stack](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/1.jpg)
 
     so here every function ecxcutes in the *call stack* only like C Programming*
 
