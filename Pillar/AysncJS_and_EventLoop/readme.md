@@ -24,7 +24,7 @@
 
     later most of the features are introduced in  Chrome and NodeJS engines 
 
-    Add the image here --- pic 2 
+  ![WEB API's connection](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/2.jpg) 
 
     So here lets assume
 
@@ -36,7 +36,7 @@
 
     Below are the some of most common WEB API's that we mostly use 
 
-    add image here --- pic 3
+   ![Few WEB API's](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/3.jpg) 
 
     These API's are comes uder global object of the borwser in Chrome Browser Global object called as *window*
 
@@ -46,7 +46,7 @@
 
 ## How setTimeout works Behid the scene in Browser :
 
-    add image here --- pic 4 
+   ![setTimeout API](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/4.jpg)
 
     in this funtion 1st global Executon Context will go to the call stack and executes the code line by line 
 
@@ -54,13 +54,13 @@
 
     so now rest of the code will execute now then global Executon Context get deleted 
 
-    add imgage here --- pic 5
+   ![after Global Execution Deleted From Call stack](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/5.jpg)
 
     after that particular amount of time the call back function get enter in to the call stack and executes it's part
 
 ## Event Loops and CallBack Queue in JS :
 
-    add image here --- pic 6 
+   ![call Back funtion](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/7.jpg)
 
     the callback function that registred for excution not able to enter call stack directly it will go through via CallBack Queue only
 
@@ -76,7 +76,7 @@
 
 ## How Event Listeners works in JS :
 
-    add image here --- pic 7 
+   ![For Onclick Event](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/8.jpg) 
 
     in this example this Event listener is not like timer function it needs to be clicked then only it will execute 
 
@@ -95,7 +95,7 @@
 
 ## Why we need Call Back Queue :
 
-    add image here --- pic 8
+   ![multiple Call Back's](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/9.jpg)
 
     when ever call back function  needs to execute we can directly push into the call stack but why we need call back Queue
 
@@ -107,7 +107,7 @@
 
 ## How fetch() works :
 
-    add image here --- pic 9 fetch
+   ![Fetching API](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/10.jpg)
 
     In this programe while Blobal execution context runs line by line the call back fuction wil gets registred inside the WEB API ENVIRONMENT
 
@@ -121,7 +121,7 @@
 
     But Micro Task Queue higher priority than Call Back Queue 
 
-    add image here --- pic 10
+   ![Micro Task Queue](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/11.jpg)
 
 
     like in this example *cbt* will goes to Call back Queue
@@ -142,7 +142,7 @@
 
 ## What are Micro Task Queues in JS :
 
-    add image here --- pic 11
+   ![Micro Task Queue Accepts](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/12.jpg)
 
     Now you wondering what are the call back functions go to Micro Task Queue 
 
@@ -156,7 +156,7 @@
 
 ## Starvation of Funtions in Call Back Queue :
 
-    add image here --- pic 12
+   ![Starvation](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/13.jpg)
 
     Like in this case In the Micro Task Queue functions make Another Moicro Task it goes like this,
         then the Call back Queue Task will Execute after all functions Execute in the Micro Task Queue
