@@ -55,6 +55,7 @@
     so now rest of the code will execute now then global Executon Context get deleted 
 
    ![after Global Execution Deleted From Call stack](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/5.jpg)
+   ![after Global Execution Deleted From Call stack](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/AysncJS_and_EventLoop/images/6.jpg)
 
     after that particular amount of time the call back function get enter in to the call stack and executes it's part
 
