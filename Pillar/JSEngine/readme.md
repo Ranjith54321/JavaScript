@@ -6,7 +6,7 @@
 
     All it need is Java Script Runtime Environment need to be there
 
-    add pic here JSrun ENV ---
+  ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/steps.jpg)
 
     So Every JS Runtime Environment has JS Engine, API (to communicate with out world), call back Queue (cq), MicroTask Queue (mq), Event Loop.
 
@@ -26,7 +26,7 @@
 
 ## JS Engine : 
 
-    add js engine first pic here --
+   ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/steps.jpg)
 
     The common step to execute JS code in any Runtime Environment is:
          CODE -> PARSING -> COMPILATION -> EXECUTION
@@ -34,13 +34,13 @@
     After PARSING the js code is converted into tokens eg :
         var a = 10 [ this is code have 4 tokens => var, a, =, 10] 
     
-    add js engine AST pic ----
+   ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/ast.jpg)
 
     After tokens that is passed to Syntax Parser then it forms AST [Abstract Syntax Tree]
 
     see here https://astexplorer.net/ to uder stand the AST 
 
-    add js engine JIT compailor ----
+   ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/ast.jpg)
 
     After AST step the code is passed to JIT compilor [Just In Time Compailation]
 
@@ -66,7 +66,7 @@
 
     It is build by C++
 
-    add pic of v8 ;
+   ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/v8.jpg)
 
     It has Special Garbage Collector called Orinoco
 
