@@ -51,4 +51,6 @@ JS Engine :
     -> In V8 Engine Compiler is called Turbo Fan
 
     -> In V8 Engine Interpreter is called Ignition
+   
+   ![](https://github.com/Ranjith54321/JavaScript/blob/main/Pillar/JSEngine/images/JS_Engine.JPG)
 
