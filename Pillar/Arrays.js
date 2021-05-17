@@ -2,7 +2,7 @@
 
 let arr = [1,2,'three'];
 
-// under the hood it will be crreated as,
+// under the hood it will be created as,
 let arr_name = {
     0 : 1,
     1 : 2,
