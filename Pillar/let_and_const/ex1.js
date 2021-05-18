@@ -34,7 +34,7 @@
     console.log(a);
 
 
-    let a = 10; // memory allocation (hoisting )  is happened some other memory not on global memory
+    let a = 10; // memory allocation (hoisting )  for "a", is happened on some other memory not on global memory
 
     // so you can't access the that memory 
 
