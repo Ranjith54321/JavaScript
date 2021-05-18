@@ -11,7 +11,7 @@
 
 */
 
-// Difference for "let" and "var"
+// Difference between "let" and "var"
 
 /*
     //1.) in var : you can do
