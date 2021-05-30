@@ -1,5 +1,11 @@
+let obj = [{"a":1},{"b":2}];
 
-let msg = ' hi iam "ranjith" '
+console.log(obj);
 
-console.log(new Date());
-//alert(new Date());
+let str = JSON.stringify(obj);
+
+console.log(str);
+
+let prs = JSON.parse(str);
+
+console.log(prs);
